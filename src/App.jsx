@@ -83,7 +83,7 @@ const App = () => {
     }, 100); // Adjust the delay as needed
     return () => clearTimeout(timer);
   }, [currLocation]);
-  
+
 
   useEffect(() => {
 
@@ -95,10 +95,10 @@ const App = () => {
   }, []);
 
   // comment out to run  App Offline.
-  const isOnline = useNetworkStatus();
-  if (!isOnline) {
-    return <OfflinePage />;
-  }
+  // const isOnline = useNetworkStatus();
+  // if (!isOnline) {
+  //   return <OfflinePage />;
+  // }
 
 
   const adminUser = {
@@ -109,7 +109,7 @@ const App = () => {
     posts: 0,
     bio: "❤️ 🏁🏎️ 🏍️ 🎧 📸 🎮 🌏",
     profileName: "yogesh Pol",
-    profilePhoto:profilePhoto,
+    profilePhoto: profilePhoto,
   };
 
   const authorizeUser = (username, password) => {
@@ -176,7 +176,7 @@ const App = () => {
                 path="/profilepage"
                 element={<ProfilePage adminUser={adminUser} />}
               />
-              <Route path="/logout" element={<LogOutModal/>}/>
+              <Route path="/logout" element={<LogOutModal />} />
               <Route path="/loading" element={<LoadingPage />} />
 
               <Route path="*" element={<ErrorPage />} />

@@ -1,11 +1,10 @@
-import React, { useState } from "react";
 import "../Styles/Pages/AuthPage.css";
+import phoneImg from '../assets/images/auth.png';
 import LoginForm from "../Components/LoginForm";
 import Footer from "../Components/Footer";
 import PageTitle from "../Components/PageTitle";
-import phoneImg from '../assets/images/auth.png';
 
-const AuthPage =  ({authorizeUser}) => {
+const AuthPage = ({ authorizeUser }) => {
   return (
     <>
       <PageTitle title="Instagram" />
@@ -13,18 +12,18 @@ const AuthPage =  ({authorizeUser}) => {
 
         <main className="authMain">
           <div className="leftContainer">
-            <img src={phoneImg} alt="phone image" />
+            <img src={phoneImg} alt="phone" />
           </div>
 
           <section className="rightContainer">
-            <LoginForm authorizeUser={authorizeUser}/>
+            <LoginForm authorizeUser={authorizeUser} />
           </section>
         </main>
 
         <footer className="authFooter">
           <Footer />
         </footer>
-        
+
       </article>
     </>
   );

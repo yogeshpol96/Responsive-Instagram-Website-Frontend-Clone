@@ -82,6 +82,17 @@
     right: 0;
 }
 
+@media screen and (max-width:450px) {
+
+    .storyContainer  {
+        overflow: scroll;
+    }
+
+    .scrollButton {
+        display: none;
+    }
+}
+
 /* @media screen and (max-width:767px){
 
     .story {

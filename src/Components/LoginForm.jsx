@@ -10,9 +10,9 @@ import InstagramLogo from "./InstagramLogo";
 import Button from "./Button";
 import PasswordField from "./PasswordField";
 
-const LoginForm = ({authorizeUser}) => {
+const LoginForm = ({ authorizeUser }) => {
   const navigate = useNavigate();
-  
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState({ display: "none" });
@@ -62,12 +62,12 @@ const LoginForm = ({authorizeUser}) => {
             type="text"
             label="Phone number, username, or email"
           />
-          
+
           <PasswordField
             password={password}
             setPassword={setPassword}
           />
-         
+
           <Button
             style={logInBtnStyle}
             onMouseOver={(e) => {

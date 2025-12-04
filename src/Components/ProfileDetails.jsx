@@ -25,7 +25,7 @@ const ProfileDetails = ({
   return (
     <section className="profileDetails">
       <div className="pd-photoContainer">
-        <img src={adminUser.profilePhoto} alt="Profile Photo" className="pd-profilePhoto" />
+        <img src={adminUser.profilePhoto} alt="Profile Photo" title="Change profile photo" className="pd-profilePhoto" />
       </div>
 
       <div className="pd-Menubar">

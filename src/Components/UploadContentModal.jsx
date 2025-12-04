@@ -6,7 +6,7 @@ import photoVideoIcon from "../assets/images/photovideoicon.png";
 
 const UploadContentModal = () => {
   const { setIsUploadContent } = useContext(createNewPostContext);
-  
+
   const containerRef = useRef(null);
 
   const handleCloseButton = () => {
@@ -53,17 +53,17 @@ const UploadContentModal = () => {
           </span>
 
           <form onSubmit={handleSubmit}>
-            <label htmlFor="postContent" className="uploadContent-button">
+            <label for="postContent" className="uploadContent-button">
               Select from computer
             </label>
             <input
-              hidden
-              multiple 
               type="file"
+              accept=".jpg, .jpeg, .png, .heic, .heif, .mp4"
+              multiple
               id="postContent"
               name="postContent"
-              accept=".jpg, .jpeg, .png, .heic, .heif, .mp4"
-            ></input>
+              hidden
+            />
           </form>
         </div>
       </div>
