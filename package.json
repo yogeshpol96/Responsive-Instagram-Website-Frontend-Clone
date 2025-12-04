@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yogeshpol20.github.io/Responsive-Instagram-Web-App-Frontend-Clone",
+  "homepage": "https://yogeshpol96.github.io/responsive-social-media-ui-react/",
   "name": "instagram-clone",
   "version": "0.1.0",
   "private": true,
@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "ajv": "^7.2.4",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.0"
   }
 }
