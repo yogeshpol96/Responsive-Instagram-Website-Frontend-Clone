@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/responsive-social-media-ui-react/static/css/main.39295a67.css",
-    "main.js": "/responsive-social-media-ui-react/static/js/main.378b7205.js",
+    "main.js": "/responsive-social-media-ui-react/static/js/main.0ffad8c3.js",
     "static/media/gopro.mp4": "/responsive-social-media-ui-react/static/media/gopro.06d2a7b5adc26d65411b.mp4",
     "static/media/motogp.mp4": "/responsive-social-media-ui-react/static/media/motogp.12ccd9c179874e6ea1c3.mp4",
     "static/media/swimming.mp4": "/responsive-social-media-ui-react/static/media/swimming.5d031821c169ff4c4352.mp4",
@@ -51,10 +51,10 @@
     "static/media/loading-logo.png": "/responsive-social-media-ui-react/static/media/loading-logo.4a85fa308a481f4ce479.png",
     "index.html": "/responsive-social-media-ui-react/index.html",
     "main.39295a67.css.map": "/responsive-social-media-ui-react/static/css/main.39295a67.css.map",
-    "main.378b7205.js.map": "/responsive-social-media-ui-react/static/js/main.378b7205.js.map"
+    "main.0ffad8c3.js.map": "/responsive-social-media-ui-react/static/js/main.0ffad8c3.js.map"
   },
   "entrypoints": [
     "static/css/main.39295a67.css",
-    "static/js/main.378b7205.js"
+    "static/js/main.0ffad8c3.js"
   ]
 }
