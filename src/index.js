@@ -7,7 +7,7 @@ import { NetworkStatusProvider } from "./Components/NetworkStatus";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/responsive-social-media-ui-react">
+  <BrowserRouter basename="/Responsive-Instagram-Website-Frontend-Clone">
     <NetworkStatusProvider>
       <App />
     </NetworkStatusProvider>

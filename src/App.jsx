@@ -103,7 +103,7 @@ const App = () => {
 
   const adminUser = {
     username: "yogesh_pol",
-    password: "Demo@1234",
+    password: "Demo@123",
     followers: 158,
     following: 385,
     posts: 0,
